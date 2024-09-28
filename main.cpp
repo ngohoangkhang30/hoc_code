@@ -13,7 +13,7 @@ int main(){
 	cout<<"x2 = "<< (-b-sqrt(delta))/(2*a);
 	return 0;
    }
-   if(delta=0 && a!=0 ){
+   if(delta==0 && a!=0 ){
 	cout<<"PT co nghiem kep: x1 = x2 = "<<-b/(2*a);
 	return 0;
    }
